@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    height: 97px;
+    background-color: rgb(87, 128, 114);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.logo {
+
+    width: 12rem;
+    background-image: url(img/logo.png);
+    background-size: cover;
+}
+
+.mid {
+    width: 70rem;
+    display: flex;
+    align-items: center;
+}
+
+.mid a {
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #A6A6A6;
+    letter-spacing: 1px;
+}
+
+.mid a:hover {
+    text-decoration: underline;
+
+}
+
+
+button {
+    font-family: Arial, He0vetica, sans-serif;
+    width: 8rem;
+    height: 20px;
+    border: 1px solid white;
+    background-color: rgb(87, 128, 114);
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #A6A6A6;
+    color: white;
+    cursor: pointer;
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new i {
+    color: #A6A6A6;
+
+}
+
+#login {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 7rem;
+    height: 20px;
+    border: 1px solid white;
+    background-color: rgb(87, 128, 114);
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    margin: 5px;
+    margin-left: 15px;
+}
+
+#login:hover {
+    background-color: #A6A6A6;
+    color: white;
+    cursor: pointer;
+}
+
+#or {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.main-content{
+    background-image: url(img/gym_back.jpg);
+    margin-top: 97px;
+    background-size: cover;
+    /* display: flex;
+    justify-content: center; */
+    height: 144vh;
+}
